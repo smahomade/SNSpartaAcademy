@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="727a1df6c3fe1610550efa0ed40131e4" label="m2m_Courses_Students" max_length="40" name="x_1563426_sparta_a_coursesstudent" type="collection">
+        <element attributes="encode_utf8=false" label="Students" max_length="32" name="x_1563426_sparta_a_student" reference="x_1563426_sparta_a_student" type="reference"/>
+        <element attributes="encode_utf8=false" label="Courses" max_length="32" name="x_1563426_sparta_a_courses" reference="x_1563426_sparta_a_courses" type="reference"/>
+        <index name="index">
+            <element name="x_1563426_sparta_a_courses"/>
+        </index>
+        <index name="index2">
+            <element name="x_1563426_sparta_a_student"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1563426_sparta_a_student" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user_id</element>
+            <list_id display_value="x_1563426_sparta_a_student" element="NULL" name="x_1563426_sparta_a_student" parent="NULL" relationship="NULL" sys_domain="global" view="ed64b340e412021008dda4ccc4008028">693830dfc3665210550efa0ed4013185</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 13:41:39</sys_created_on>
+            <sys_id>a53830dfc3665210550efa0ed4013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 13:41:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1563426_sparta_a_student</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 13:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>693830dfc3665210550efa0ed4013185</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1563426_sparta_a_student</sys_name>
+            <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+            <sys_update_name>sys_ui_list_x_1563426_sparta_a_student_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 13:41:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">ed64b340e412021008dda4ccc4008028</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</application>
+        <file_path/>
+        <instance_id>1d679edd1b0a86d032182f8dee4bcb44</instance_id>
+        <instance_name>dev265151</instance_name>
+        <name>sys_ui_list_x_1563426_sparta_a_student_sys_ref_list</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1563426_sparta_a_student" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>user_id</element><list_id display_value="x_1563426_sparta_a_student" element="NULL" name="x_1563426_sparta_a_student" parent="NULL" relationship="NULL" sys_domain="global" view="ed64b340e412021008dda4ccc4008028">693830dfc3665210550efa0ed4013185</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-23 13:41:39</sys_created_on><sys_id>a53830dfc3665210550efa0ed4013186</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-23 13:41:39</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1563426_sparta_a_student</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-23 13:41:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>693830dfc3665210550efa0ed4013185</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1563426_sparta_a_student</sys_name><sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package><sys_policy/><sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope><sys_update_name>sys_ui_list_x_1563426_sparta_a_student_sys_ref_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-23 13:41:39</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">ed64b340e412021008dda4ccc4008028</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-630450964</payload_hash>
+        <record_name>Student</record_name>
+        <reverted_from/>
+        <source>b9f9b85ac3a2d210550efa0ed4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 13:41:39</sys_created_on>
+        <sys_id>293830dfc3665210550efa0ed4013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193f3c081ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 13:41:39</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>6d3830df1b6652107cb530fe14837d87</update_guid>
+        <update_guid_history>6d3830df1b6652107cb530fe14837d87:-630450964,99e7bc9fc0665210965ce21fbce1305f:-1663693687,95e7f81f646652101e9f2be3266df6cf:-619467101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 11:58:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>1c399bcadd79479ca3afb302f25afed1</sys_id>
+        <sys_metadata>693830dfc3665210550efa0ed4013185</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1563426_sparta_a_student</sys_name>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_parent display_value="">0f349013c3e25210550efa0ed4013113</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_scope_delete display_value="">090f9f49c7324a80848ca711ce168664</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1563426_sparta_a_student_sys_ref_list</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1563426_sparta_a_student_sys_ref_list">293830dfc3665210550efa0ed4013188</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 11:58:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

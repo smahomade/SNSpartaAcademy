@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sparta Academy">da473cd2c3a2d210550efa0ed4013144</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Trainers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1563426_sparta_a_trainers</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1563426_sparta_a.trainers_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 21:44:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a0d70dec3369210550efa0ed40131f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Trainers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name>sys_app_module_3a0d70dec3369210550efa0ed40131f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 21:45:39</sys_updated_on>
+        <timeline_page/>
+        <title>Trainers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</application>
+        <file_path/>
+        <instance_id>1d679edd1b0a86d032182f8dee4bcb44</instance_id>
+        <instance_name>dev265151</instance_name>
+        <name>sys_app_module_3a0d70dec3369210550efa0ed40131f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sparta Academy">da473cd2c3a2d210550efa0ed4013144</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Trainers</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1563426_sparta_a_trainers</name><order>400</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1563426_sparta_a.trainers_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-01 21:44:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3a0d70dec3369210550efa0ed40131f3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Trainers</sys_name><sys_overrides/><sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package><sys_policy/><sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope><sys_update_name>sys_app_module_3a0d70dec3369210550efa0ed40131f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-01 21:45:39</sys_updated_on><timeline_page/><title>Trainers</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1594233263</payload_hash>
+        <record_name>Trainers</record_name>
+        <reverted_from/>
+        <source>b9f9b85ac3a2d210550efa0ed4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 21:45:39</sys_created_on>
+        <sys_id>5b4db8dec3369210550efa0ed401310e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19423d4da900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 21:45:39</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1b4d30de85f292108ba75875f98d247e</update_guid>
+        <update_guid_history>1b4d30de85f292108ba75875f98d247e:-1594233263,360d70ded43692100d80640d811455f6:2058227910</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Trainers">9ab781fec37e1610550efa0ed40131b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 11:48:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>185fcdad993049bc8ae55eff85473e41</sys_id>
+        <sys_metadata>3a0d70dec3369210550efa0ed40131f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trainers</sys_name>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_scope_delete display_value="">090f9f49c7324a80848ca711ce168664</sys_scope_delete>
+        <sys_update_name>sys_app_module_3a0d70dec3369210550efa0ed40131f3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3a0d70dec3369210550efa0ed40131f3">5b4db8dec3369210550efa0ed401310e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 11:48:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

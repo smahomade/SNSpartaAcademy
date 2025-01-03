@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sparta Academy">da473cd2c3a2d210550efa0ed4013144</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1563426_sparta_a_student</name>
+        <order>201</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 20:08:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12fcdf71c37a1210550efa0ed4013140</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name>sys_app_module_12fcdf71c37a1210550efa0ed4013140</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 20:52:21</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</application>
+        <file_path/>
+        <instance_id>1d679edd1b0a86d032182f8dee4bcb44</instance_id>
+        <instance_name>dev265151</instance_name>
+        <name>sys_app_module_12fcdf71c37a1210550efa0ed4013140</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sparta Academy">da473cd2c3a2d210550efa0ed4013144</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1563426_sparta_a_student</name><order>201</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-31 20:08:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>12fcdf71c37a1210550efa0ed4013140</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package><sys_policy/><sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope><sys_update_name>sys_app_module_12fcdf71c37a1210550efa0ed4013140</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-31 20:52:21</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1976701025</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>b9f9b85ac3a2d210550efa0ed4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 20:52:21</sys_created_on>
+        <sys_id>78872331c3ba1210550efa0ed401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1941e7db29e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 20:52:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f8872331fcba1210cebe89482f591e08</update_guid>
+        <update_guid_history>f8872331fcba1210cebe89482f591e08:1976701025,b9d2a379837a12109d4b6d5b5dddd507:699036865,acd22f79647a12101097e59ad48112c6:-193713313,54c22f79f27a12109ea44a8063944721:699036865,fc322f39347a12101ff4122006cf4aba:-1486538012,f9a067b5c67a12109da56f80f475a538:398948771,f58063b59e7a121002c895d65f937b53:-1999086558,b93e9ff1a97a1210af2a752de41d947a:1988634144,106d1f71dc7a1210fac995750c548836:-972056200</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">b42a81f2c3be1610550efa0ed40131a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 11:58:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>088479953089400e9c649c5ea7b37b21</sys_id>
+        <sys_metadata>12fcdf71c37a1210550efa0ed4013140</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_scope_delete display_value="">090f9f49c7324a80848ca711ce168664</sys_scope_delete>
+        <sys_update_name>sys_app_module_12fcdf71c37a1210550efa0ed4013140</sys_update_name>
+        <sys_update_version display_value="sys_app_module_12fcdf71c37a1210550efa0ed4013140">78872331c3ba1210550efa0ed401319e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 11:58:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

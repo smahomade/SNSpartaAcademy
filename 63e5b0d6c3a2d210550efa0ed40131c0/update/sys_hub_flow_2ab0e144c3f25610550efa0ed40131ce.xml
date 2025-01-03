@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=739658000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>testing1</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛Student Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1563426_sparta_a_student","column_name":"sys_created_by","usedInstances":{}},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Student Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1563426_sparta_a_student","column_name":"sys_created_on","usedInstances":{}},{"name":"Created or Updated_1.current.sys_updated_on","label":"Trigger - Record Created or Updated➛Student Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1563426_sparta_a_student","column_name":"sys_updated_on","usedInstances":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Student Table","reference":"x_1563426_sparta_a_student","reference_display":"Student","type":"table_name","base_type":"table_name","usedInstances":{"bc49ff33-412b-4074-898d-92cdbe8898c9":["condition"],"069e0aed-9317-42f3-8fed-0c7f501496cb":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Student Record","reference":"x_1563426_sparta_a_student","reference_display":"Student","type":"reference","base_type":"reference","usedInstances":{"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_student","x_1563426_sparta_a_courses"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["values","student"],"5ad836f9-1071-4781-9c6d-34a11f8d55b4":["values"]},"attributes":{}},{"name":"Created_1.current.user_id","label":"Trigger - Record Created➛Student Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"x_1563426_sparta_a_student","column_name":"user_id","usedInstances":{"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_student"]}},{"name":"Created_1.current.course","label":"Trigger - Record Created➛Student Record➛Course","reference":"x_1563426_sparta_a_courses","reference_display":"Courses","type":"reference","base_type":"reference","parent_table_name":"x_1563426_sparta_a_student","column_name":"course","usedInstances":{"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_courses"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["values","course"],"5ad836f9-1071-4781-9c6d-34a11f8d55b4":["values"]}},{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"be8d8c8e-cdae-4692-8d11-19e19439530b":["enrolment_date"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Record","reference":"x_1563426_sparta_a_student","reference_display":"Student","type":"reference","base_type":"reference","usedInstances":{"24a58e45-6bb2-4da4-995f-1bf9e383a9a9":["conditions"],"0fe7813e-c247-4a3c-8a39-da61597c623d":["condition"],"859a123b-eaf8-43b0-9e49-002642d4aa1e":["conditions"],"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_student"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["student"]},"attributes":{}},{"name":"Created or Updated_1.current.course","label":"Trigger - Record Created or Updated➛Student Record➛Course","reference":"x_1563426_sparta_a_courses","reference_display":"Courses","type":"reference","base_type":"reference","parent_table_name":"x_1563426_sparta_a_student","column_name":"course","usedInstances":{"24a58e45-6bb2-4da4-995f-1bf9e383a9a9":["conditions"],"859a123b-eaf8-43b0-9e49-002642d4aa1e":["conditions"],"0fe7813e-c247-4a3c-8a39-da61597c623d":["condition"],"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_courses"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["course"]}},{"name":"Created or Updated_1.run_start_date_time","label":"Trigger - Record Created or Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"be8d8c8e-cdae-4692-8d11-19e19439530b":["enrolment_date"]},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master_snapshot>b3d34c06c33e1210550efa0ed4013153</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Enrolment when Student Created</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>d988fb4ac3fe5210550efa0ed4013158</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-26 00:34:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ab0e144c3f25610550efa0ed40131ce</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Create Enrolment when Student Created</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name>sys_hub_flow_2ab0e144c3f25610550efa0ed40131ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:45</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1563426_sparta_a_student">courseISNOTEMPTY<item endquery="false" field="course" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 16:45:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d988fb4ac3fe5210550efa0ed4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 16:45:09</sys_updated_on>
+        <table>x_1563426_sparta_a_student</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>2ab0e144c3f25610550efa0ed40131ce</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 14:01:45</sys_created_on>
+        <sys_id>5346edbac3325610550efa0ed4013138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:45</sys_updated_on>
+        <trigger display_value="">d988fb4ac3fe5210550efa0ed4013158</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2ab0e144c3f25610550efa0ed40131ce^sys_idNOT IN5346edbac3325610550efa0ed4013138"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2ab0e144c3f25610550efa0ed40131ce^sys_idNOT INe6b0a948c3365610550efa0ed401315a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2ab0e144c3f25610550efa0ed40131ce</id>
+        <name>Testing1</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-26 00:34:06</sys_created_on>
+        <sys_id>e6b0a948c3365610550efa0ed401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-26 00:34:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e6b0a948c3365610550efa0ed401315a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2ab0e144c3f25610550efa0ed40131ce^sys_idNOT IN76d38cc2c33e1210550efa0ed4013186,f6d30c06c33e1210550efa0ed40131c7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Enrolment when Student Created">2ab0e144c3f25610550efa0ed40131ce</model>
+        <model_id>2ab0e144c3f25610550efa0ed40131ce</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2ab0e144c3f25610550efa0ed40131ce</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:11</sys_created_on>
+        <sys_id>76d38cc2c33e1210550efa0ed4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=76d38cc2c33e1210550efa0ed4013186"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Enrolment when Student Created">2ab0e144c3f25610550efa0ed40131ce</model>
+        <model_id>2ab0e144c3f25610550efa0ed40131ce</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2ab0e144c3f25610550efa0ed40131ce</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:12</sys_created_on>
+        <sys_id>f6d30c06c33e1210550efa0ed40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f6d30c06c33e1210550efa0ed40131c7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2ab0e144c3f25610550efa0ed40131ce^sys_idNOT INf778bb4ac3fe5210550efa0ed401311e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Enrolment when Student Created">2ab0e144c3f25610550efa0ed40131ce</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 16:45:03</sys_created_on>
+        <sys_id>f778bb4ac3fe5210550efa0ed401311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 16:45:03</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VYbW/iOBD+K1E+3Uk9KS9ASvdTj9LbSm1ZAberU1VZTuxAdMHhYictu+p/v3HeCCHpBtjeQbcfKNjOzDzjmceP8/BN9bFNffVCnWLbp+qZ6jFBQ4b96WpJYVjIYcTwQs4tMCNYBOFKvRBhRM/UICQ0VC/0MzXGfkQnK35D4CFYmjyRPa5m0/D7GendntkxeogvcSgwwoiLiFAmYBHx+NLHq8/Z2kkxAUvBnJCuvqnO3PNJSJl68fAI4Up/jqtTvX+uOaYBf5pmnHd0u2faukFMTLEGJqowK/GJGrRrcPRZUEYouHKxz2lNIkKKyYj5q2LFHPKYZmKBn7n3Fayfa3KdSyF2h6ZzzjzwHDpaCi9g6UgaUDoZ+NGC3aeByvRQF0e+yNMDIxGniNCljE16y1y7k3nwNM4dXXssgZFN+oGD/eIXFiL07EhQLjPrej7kGKVJ4EEUJmGOh4PR+Ap9uZwOPg7HaDycTMc3g+nwSn1J8KB/ImkxjTCLBaVwXoo9vfaoL3cKIg4R7NmZyp3QW4pLR3gxzeJ5OVuXYxgxMIKKzG8VZpq6Ioe3HocMPACIPD+JSZh3bzOT44gpAewRfChOFEJ2hJLvv3uzwLMsq+6nvNySrGSVEuMQoQXiK47mkY0gb7OZxMKWkUC40yV9vbEArY3cJL0Aph9U9fFFbhf1qSNK1eX+ycu/7jzOPTYrJanAKItvG2KBDqpUyTOYQuWnhfVxo9WyRXlfaloj7WxXT1ypigrXtCAZ3ekYmmn3NEui1uGrq2uW1sUuMTXNPi+RzLb7xrhEpZrL4F6jnWykDe90mniHJw3jt2iPavbyKMsd26r24s3CzewYcqMzehscYWgVmjZ34umi4tLhq83Cew3aD6Z3TGIMT5AcYxv6bsHSrh88ATXswdA2dv6ehUHESJXDpE3FY8p6hfJLlr9fT4vBymztBiF9He/mitNBeQhPr+sn70DMVnsxtGHq1Op1ehoQsyk5udvv2w42XNfqWVTXKwy9dlwbzXEx83c6Iq5rqSYqrK22uK5Id+Dn/z/Ag1g6q7lajk7njp+NBwEjXoJ+m4vzKa7u2apOyXi+FQ7cETi9mdyPpsO7T9O/WvSopVmENLKSY5d6tAynJghRg+xNelR763tbeoXcu5IWAaH+1dqcunEOyLTkqUDBkoYyBfCc+vnydvDx8v6P4eRD9v96PLrLv09H8NwTZoIjESBMCColumXJpjnZvgS2u/09zSlDnAohz5ndxQUDnZ08g1MnpRNXbrmS8EwQKvcB++1mvU6ZUDjZkgI7ofO3rDLagAZjofKuUNuBmG+pKkD6O4xvIJXiv2HPf6LLcaW54s0s7i69sGHgvm5ajgWYQXq5HWpjvWN0cd/qmVavIr0q7psDOx4R1pI04kb6qRM7bZsyru3tQvxU5dMedV+pgMy0+R3h9/Mm5SCxmbdZ4xuBfYI9fn1a9HfyFtiXR/bWuT7zPULzucPorewlXlPZ7uTm2H3S7VoN5EbdOnIrO38tMFED+z9RsfL8koH8cDV79IV3iKaUPikK3LLUuAoUmFDAieK5SqYHKFHslSLmFHrZh+ssOFSk9xPTGGWJtY28YOp3jTu9/m8pSxhWsgY6IWAHi8ZKCx36zo4S0+mTJuHYsRq5tVk9VqaPR0LuTBRxHe+8Kpl2s1u1WSuaSnW+udktNeI7Rv1mbxxrojjSU/bxXy2pvK5DIgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2ab0e144c3f25610550efa0ed40131ce^sys_idNOT INb5a7884ac33e1210550efa0ed401311f,fed30c06c33e1210550efa0ed40131cf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Create Enrolment Record for Student</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Enrolment when Student Created">2ab0e144c3f25610550efa0ed40131ce</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 23:12:47</sys_created_on>
+        <sys_id>b5a7884ac33e1210550efa0ed401311f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:03:32</sys_updated_on>
+        <ui_id>be8d8c8e-cdae-4692-8d11-19e19439530b</ui_id>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8lYBnQZAsR0h8K2z41CZAU/iSpgQlrmwCFKXy4dg19O9dipJjJDaaAj00unF3lpwZcvR4IIKTGclTSK5v07zM0iybJMnkZpoWeVakE54xgCmJiGI1INKyQgLtFxHZMul8cUfT6zybTnJqWqYto4yC0o2UNSiLOC5MK9l+9U54uRGSa1Bk9vgUEYTgaRY0mR1etd7LXbICJEK/efIXtNh9e7b2+XT26i40Gs09nyQisLOgOCCRikkDEamZ4sw2ek9mVjssaGD8Xsn9EbERqHJGiMfujPiFx94kHlcBKish9I7L/uBFcDC0qgWz7AF3L63TA7zcNKIEE3zhUDEn7fy0FgD3rRWNCiO91GG6ka5Wd8EWctxgvDCsOAOUQ+u1evaDlOph0zx/HZkuheptGZqyKZk8rpi1WhTOej4HAhL8ZdOata1Qa9rqZiv6YeRSx2uJi7iSzTMeasRaxaz0xGO0lsVLrC/68opp4VV8wW1wuIuI2Zu5ZMa8aEEj6U/nmQRlgwYabPAjpRat/YQHbGGg20VjMDgktxcfV1q8PKY+C+YkFGXjtIHvLkkyfjjM8RlY4DSNS6fRLRuHftf9MNZ5QheRCOnj0RuGBpzZUztFjcUs9X1qRY0bvw3e/0DpL8P9Z//HcC8FSG7OXMiYbKjRC6QSLuhVuofm1WpoDglP/1XC0zzpvw+W8yDww8f85K9+PvBjEUl33dNv7iLudhcHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Create Many to Many Record for Student</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Enrolment when Student Created">2ab0e144c3f25610550efa0ed40131ce</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:12</sys_created_on>
+        <sys_id>fed30c06c33e1210550efa0ed40131cf</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:03:32</sys_updated_on>
+        <ui_id>181c10f9-6f25-4485-8f53-dcb91c7a6eda</ui_id>
+        <values>H4sIAAAAAAAA/9VUTW/aQBD9K9GeLcvGxEq4VSBObSI1FZc0XY29A6y0/uh+ECjyf++s15AoAiVI7SHcdubNznvP+3jcMynYhOUpJte3aV5maZaNkmR0M06LPCvSkcgAccwiVkOFhLRQKOT9IWIbUM4Xtzy9zrPxKOemBW2BAy8bpw0aY53A2hJWSNMq2C0uGCnXUgmNNZs8PkWMYLTVomaT/ZvWRzUoKFAR9IcXcUaT3bUna19fz17dhUajheeTRAy3FmuBRGQJymDEKqgF2Ebv2MRqRwWNIO5rtTsi1pJUThjz2K2Rf2jtTeJxSyRlJYbe8dgvngUXQ2s5AwsPdHtpnR7g5bqRJZrgi8AlOGWnr2sBcN9a2dRhpJc6TDfKVfVdsIUdLzh8NKo4g1xg67V69oOU5cO6ef5+YDqXdW/L0FRNCep4Amu1LJz1fPYMFVZ0Ea+gbWW94q1uNrIfJi5VvFJ0iJeqeaalRq7qGEpPPCZrIZ5TfdaXF6ClV/GNrqHhLmJmZ6YKjHnRQkby384zCcoGDTzY4EdKLVv7hRZscKDbRYeACExuzz6utHh5TH0mzIfC8dMlSSb2+yk9DYuCp3HpNDlo4wDoul8nhod8nB3uukvS9h85XBjf9x0+xHcuUQlzwvJDdrEi8RZ5+ARv8js0rxZDc8hw+q8ynOZJ//tkSQ4CP32QX/1vn4n0018cjF/09QYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2ab0e144c3f25610550efa0ed40131ce^sys_idNOT IN36d38cc2c33e1210550efa0ed401318a,fad30c06c33e1210550efa0ed40131c9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2ab0e144c3f25610550efa0ed40131ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:12</sys_created_on>
+        <sys_id>36d38cc2c33e1210550efa0ed401318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2ab0e144c3f25610550efa0ed40131ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:12</sys_created_on>
+        <sys_id>fad30c06c33e1210550efa0ed40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2ab0e144c3f25610550efa0ed40131ce"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>testing1</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_created_by","label":"Trigger - Record Created or Updated➛Student Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1563426_sparta_a_student","column_name":"sys_created_by","usedInstances":{}},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Student Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1563426_sparta_a_student","column_name":"sys_created_on","usedInstances":{}},{"name":"Created or Updated_1.current.sys_updated_on","label":"Trigger - Record Created or Updated➛Student Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1563426_sparta_a_student","column_name":"sys_updated_on","usedInstances":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Student Table","reference":"x_1563426_sparta_a_student","reference_display":"Student","type":"table_name","base_type":"table_name","usedInstances":{"bc49ff33-412b-4074-898d-92cdbe8898c9":["condition"],"069e0aed-9317-42f3-8fed-0c7f501496cb":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Student Record","reference":"x_1563426_sparta_a_student","reference_display":"Student","type":"reference","base_type":"reference","usedInstances":{"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_student","x_1563426_sparta_a_courses"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["values","student"],"5ad836f9-1071-4781-9c6d-34a11f8d55b4":["values"]},"attributes":{}},{"name":"Created_1.current.user_id","label":"Trigger - Record Created➛Student Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"x_1563426_sparta_a_student","column_name":"user_id","usedInstances":{"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_student"]}},{"name":"Created_1.current.course","label":"Trigger - Record Created➛Student Record➛Course","reference":"x_1563426_sparta_a_courses","reference_display":"Courses","type":"reference","base_type":"reference","parent_table_name":"x_1563426_sparta_a_student","column_name":"course","usedInstances":{"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_courses"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["values","course"],"5ad836f9-1071-4781-9c6d-34a11f8d55b4":["values"]}},{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"be8d8c8e-cdae-4692-8d11-19e19439530b":["enrolment_date"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Student Record","reference":"x_1563426_sparta_a_student","reference_display":"Student","type":"reference","base_type":"reference","usedInstances":{"24a58e45-6bb2-4da4-995f-1bf9e383a9a9":["conditions"],"0fe7813e-c247-4a3c-8a39-da61597c623d":["condition"],"859a123b-eaf8-43b0-9e49-002642d4aa1e":["conditions"],"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_student"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["student"]},"attributes":{}},{"name":"Created or Updated_1.current.course","label":"Trigger - Record Created or Updated➛Student Record➛Course","reference":"x_1563426_sparta_a_courses","reference_display":"Courses","type":"reference","base_type":"reference","parent_table_name":"x_1563426_sparta_a_student","column_name":"course","usedInstances":{"24a58e45-6bb2-4da4-995f-1bf9e383a9a9":["conditions"],"859a123b-eaf8-43b0-9e49-002642d4aa1e":["conditions"],"0fe7813e-c247-4a3c-8a39-da61597c623d":["condition"],"181c10f9-6f25-4485-8f53-dcb91c7a6eda":["x_1563426_sparta_a_courses"],"be8d8c8e-cdae-4692-8d11-19e19439530b":["course"]}},{"name":"Created or Updated_1.run_start_date_time","label":"Trigger - Record Created or Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"be8d8c8e-cdae-4692-8d11-19e19439530b":["enrolment_date"]},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Create Enrolment when Student Created</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Enrolment when Student Created">2ab0e144c3f25610550efa0ed40131ce</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3d34c06c33e1210550efa0ed4013153</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:45</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b3d34c06c33e1210550efa0ed4013153^sys_idNOT INf7d34c06c33e1210550efa0ed4013154"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b3d34c06c33e1210550efa0ed4013153</id>
+        <name>Testing1</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>f7d34c06c33e1210550efa0ed4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f7d34c06c33e1210550efa0ed4013154"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b3d34c06c33e1210550efa0ed4013153^sys_idNOT INbfd34c06c33e1210550efa0ed4013155,f3d34c06c33e1210550efa0ed401317a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Enrolment when Student Created">b3d34c06c33e1210550efa0ed4013153</model>
+        <model_id>b3d34c06c33e1210550efa0ed4013153</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b3d34c06c33e1210550efa0ed4013153</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>bfd34c06c33e1210550efa0ed4013155</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bfd34c06c33e1210550efa0ed4013155"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Enrolment when Student Created">b3d34c06c33e1210550efa0ed4013153</model>
+        <model_id>b3d34c06c33e1210550efa0ed4013153</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b3d34c06c33e1210550efa0ed4013153</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>f3d34c06c33e1210550efa0ed401317a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f3d34c06c33e1210550efa0ed401317a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b3d34c06c33e1210550efa0ed4013153^sys_idNOT IN04e34c06c33e1210550efa0ed4013192"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Enrolment when Student Created">b3d34c06c33e1210550efa0ed4013153</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>04e34c06c33e1210550efa0ed4013192</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 16:45:08</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VYbW/iOBD+K1E+3Uk9KS9ASvdTj9LbSm1ZAberU1VZTuxAdMHhYictu+p/v3HeCCHpBtjeQbcfKNjOzDzjmceP8/BN9bFNffVCnWLbp+qZ6jFBQ4b96WpJYVjIYcTwQs4tMCNYBOFKvRBhRM/UICQ0VC/0MzXGfkQnK35D4CFYmjyRPa5m0/D7GendntkxeogvcSgwwoiLiFAmYBHx+NLHq8/Z2kkxAUvBnJCuvqnO3PNJSJl68fAI4Up/jqtTvX+uOaYBf5pmnHd0u2faukFMTLEGJqowK/GJGrRrcPRZUEYouHKxz2lNIkKKyYj5q2LFHPKYZmKBn7n3Fayfa3KdSyF2h6ZzzjzwHDpaCi9g6UgaUDoZ+NGC3aeByvRQF0e+yNMDIxGniNCljE16y1y7k3nwNM4dXXssgZFN+oGD/eIXFiL07EhQLjPrej7kGKVJ4EEUJmGOh4PR+Ap9uZwOPg7HaDycTMc3g+nwSn1J8KB/ImkxjTCLBaVwXoo9vfaoL3cKIg4R7NmZyp3QW4pLR3gxzeJ5OVuXYxgxMIKKzG8VZpq6Ioe3HocMPACIPD+JSZh3bzOT44gpAewRfChOFEJ2hJLvv3uzwLMsq+6nvNySrGSVEuMQoQXiK47mkY0gb7OZxMKWkUC40yV9vbEArY3cJL0Aph9U9fFFbhf1qSNK1eX+ycu/7jzOPTYrJanAKItvG2KBDqpUyTOYQuWnhfVxo9WyRXlfaloj7WxXT1ypigrXtCAZ3ekYmmn3NEui1uGrq2uW1sUuMTXNPi+RzLb7xrhEpZrL4F6jnWykDe90mniHJw3jt2iPavbyKMsd26r24s3CzewYcqMzehscYWgVmjZ34umi4tLhq83Cew3aD6Z3TGIMT5AcYxv6bsHSrh88ATXswdA2dv6ehUHESJXDpE3FY8p6hfJLlr9fT4vBymztBiF9He/mitNBeQhPr+sn70DMVnsxtGHq1Op1ehoQsyk5udvv2w42XNfqWVTXKwy9dlwbzXEx83c6Iq5rqSYqrK22uK5Id+Dn/z/Ag1g6q7lajk7njp+NBwEjXoJ+m4vzKa7u2apOyXi+FQ7cETi9mdyPpsO7T9O/WvSopVmENLKSY5d6tAynJghRg+xNelR763tbeoXcu5IWAaH+1dqcunEOyLTkqUDBkoYyBfCc+vnydvDx8v6P4eRD9v96PLrLv09H8NwTZoIjESBMCColumXJpjnZvgS2u/09zSlDnAohz5ndxQUDnZ08g1MnpRNXbrmS8EwQKvcB++1mvU6ZUDjZkgI7ofO3rDLagAZjofKuUNuBmG+pKkD6O4xvIJXiv2HPf6LLcaW54s0s7i69sGHgvm5ajgWYQXq5HWpjvWN0cd/qmVavIr0q7psDOx4R1pI04kb6qRM7bZsyru3tQvxU5dMedV+pgMy0+R3h9/Mm5SCxmbdZ4xuBfYI9fn1a9HfyFtiXR/bWuT7zPULzucPorewlXlPZ7uTm2H3S7VoN5EbdOnIrO38tMFED+z9RsfL8koH8cDV79IV3iKaUPikK3LLUuAoUmFDAieK5SqYHKFHslSLmFHrZh+ssOFSk9xPTGGWJtY28YOp3jTu9/m8pSxhWsgY6IWAHi8ZKCx36zo4S0+mTJuHYsRq5tVk9VqaPR0LuTBRxHe+8Kpl2s1u1WSuaSnW+udktNeI7Rv1mbxxrojjSU/bxXy2pvK5DIgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b3d34c06c33e1210550efa0ed4013153^sys_idNOT IN36a7884ac33e1210550efa0ed40131df,4ce34c06c33e1210550efa0ed4013191"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Create Enrolment Record for Student</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Enrolment when Student Created">b3d34c06c33e1210550efa0ed4013153</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 23:12:51</sys_created_on>
+        <sys_id>36a7884ac33e1210550efa0ed40131df</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 16:45:09</sys_updated_on>
+        <ui_id>be8d8c8e-cdae-4692-8d11-19e19439530b</ui_id>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8lYBnQZAsR0h8K2z41CZAU/iSpgQlrmwCFKXy4dg19O9dipJjJDaaAj00unF3lpwZcvR4IIKTGclTSK5v07zM0iybJMnkZpoWeVakE54xgCmJiGI1INKyQgLtFxHZMul8cUfT6zybTnJqWqYto4yC0o2UNSiLOC5MK9l+9U54uRGSa1Bk9vgUEYTgaRY0mR1etd7LXbICJEK/efIXtNh9e7b2+XT26i40Gs09nyQisLOgOCCRikkDEamZ4sw2ek9mVjssaGD8Xsn9EbERqHJGiMfujPiFx94kHlcBKish9I7L/uBFcDC0qgWz7AF3L63TA7zcNKIEE3zhUDEn7fy0FgD3rRWNCiO91GG6ka5Wd8EWctxgvDCsOAOUQ+u1evaDlOph0zx/HZkuheptGZqyKZk8rpi1WhTOej4HAhL8ZdOata1Qa9rqZiv6YeRSx2uJi7iSzTMeasRaxaz0xGO0lsVLrC/68opp4VV8wW1wuIuI2Zu5ZMa8aEEj6U/nmQRlgwYabPAjpRat/YQHbGGg20VjMDgktxcfV1q8PKY+C+YkFGXjtIHvLkkyfjjM8RlY4DSNS6fRLRuHftf9MNZ5QheRCOnj0RuGBpzZUztFjcUs9X1qRY0bvw3e/0DpL8P9Z//HcC8FSG7OXMiYbKjRC6QSLuhVuofm1WpoDglP/1XC0zzpvw+W8yDww8f85K9+PvBjEUl33dNv7iLudhcHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Create Many to Many Record for Student</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Enrolment when Student Created">b3d34c06c33e1210550efa0ed4013153</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>4ce34c06c33e1210550efa0ed4013191</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:33</sys_updated_on>
+        <ui_id>181c10f9-6f25-4485-8f53-dcb91c7a6eda</ui_id>
+        <values>H4sIAAAAAAAA/9VUTW/aQBD9K9GeLcvGxEq4VSBObSI1FZc0XY29A6y0/uh+ECjyf++s15AoAiVI7SHcdubNznvP+3jcMynYhOUpJte3aV5maZaNkmR0M06LPCvSkcgAccwiVkOFhLRQKOT9IWIbUM4Xtzy9zrPxKOemBW2BAy8bpw0aY53A2hJWSNMq2C0uGCnXUgmNNZs8PkWMYLTVomaT/ZvWRzUoKFAR9IcXcUaT3bUna19fz17dhUajheeTRAy3FmuBRGQJymDEKqgF2Ebv2MRqRwWNIO5rtTsi1pJUThjz2K2Rf2jtTeJxSyRlJYbe8dgvngUXQ2s5AwsPdHtpnR7g5bqRJZrgi8AlOGWnr2sBcN9a2dRhpJc6TDfKVfVdsIUdLzh8NKo4g1xg67V69oOU5cO6ef5+YDqXdW/L0FRNCep4Amu1LJz1fPYMFVZ0Ea+gbWW94q1uNrIfJi5VvFJ0iJeqeaalRq7qGEpPPCZrIZ5TfdaXF6ClV/GNrqHhLmJmZ6YKjHnRQkby384zCcoGDTzY4EdKLVv7hRZscKDbRYeACExuzz6utHh5TH0mzIfC8dMlSSb2+yk9DYuCp3HpNDlo4wDoul8nhod8nB3uukvS9h85XBjf9x0+xHcuUQlzwvJDdrEi8RZ5+ARv8js0rxZDc8hw+q8ynOZJ//tkSQ4CP32QX/1vn4n0018cjF/09QYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b3d34c06c33e1210550efa0ed4013153^sys_idNOT IN3bd34c06c33e1210550efa0ed401317e,7bd34c06c33e1210550efa0ed4013177"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b3d34c06c33e1210550efa0ed4013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>3bd34c06c33e1210550efa0ed401317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b3d34c06c33e1210550efa0ed4013153</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:16</sys_created_on>
+        <sys_id>7bd34c06c33e1210550efa0ed4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 22:56:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b3d34c06c33e1210550efa0ed4013153"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>2ab0e144c3f25610550efa0ed40131ce</sys_id>
+        <latest_snapshot>b3d34c06c33e1210550efa0ed4013153</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch2-09-25-2024_10-06-2024_2304.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2ab0e144c3f25610550efa0ed40131ce^sys_idNOT INcce34c06c33e1210550efa0ed40131ae"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cce34c06c33e1210550efa0ed40131ae","name":"plan","plan_signature":null}}</plan>
+        <plan_id>2ab0e144c3f25610550efa0ed40131ce</plan_id>
+        <snapshot>99b6a9fac3325610550efa0ed401310e</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 22:56:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cce34c06c33e1210550efa0ed40131ae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 14:01:33</sys_updated_on>
+        <trigger display_value="">d988fb4ac3fe5210550efa0ed4013158</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2ab0e144c3f25610550efa0ed40131ce"/>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="132c1371c37a1210550efa0ed40131c0" extends="task" label="Enrolment" max_length="40" name="x_1563426_sparta_a_enrollment" type="collection">
+        <element attributes="encode_utf8=false" label="Course" max_length="32" name="course" reference="x_1563426_sparta_a_courses" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Grade" max_length="40" name="grade" type="string"/>
+        <element label="Student" max_length="32" name="student" reference="x_1563426_sparta_a_student" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Enrolment  Date" max_length="40" name="enrolment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="Cancelled"/>
+                <element inactive_on_update="false" label="Enrolled" sequence="0" value="Enrolled"/>
+            </choice>
+        </element>
+    </element>
+</database>

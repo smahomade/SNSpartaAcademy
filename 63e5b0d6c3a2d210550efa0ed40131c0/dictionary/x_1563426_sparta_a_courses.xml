@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ed07305ac3a2d210550efa0ed40131ea" label="Courses" max_length="40" name="x_1563426_sparta_a_courses" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="c" label="Streams" mandatory="true" max_length="40" name="streams" type="choice">
             <choice>
+                <element inactive_on_update="false" label="ServiceNow" value="servicenow"/>
+                <element inactive_on_update="false" label="DevOps" value="devops"/>
                 <element inactive_on_update="false" label="C#" value="c"/>
                 <element inactive_on_update="false" label="Java" value="java"/>
-                <element inactive_on_update="false" label="DevOps" value="devops"/>
-                <element inactive_on_update="false" label="ServiceNow" value="servicenow"/>
                 <element inactive_on_update="false" label="Data" value="data"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="tentative" display="true" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Current Date/Time" max_length="40" name="current_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tentative" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Tentative" value="tentative"/>
-                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
                 <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
                 <element inactive_on_update="false" label="Progress" value="progress"/>
             </choice>
         </element>

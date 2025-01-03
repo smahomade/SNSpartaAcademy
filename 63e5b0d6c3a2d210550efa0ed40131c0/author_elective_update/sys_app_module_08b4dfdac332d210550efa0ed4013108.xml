@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sparta Academy">da473cd2c3a2d210550efa0ed4013144</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>[Relationship]TrainerToCourses</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1563426_sparta_a_relationship_trainerstocourses</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-02 08:47:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08b4dfdac332d210550efa0ed4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Relationship]TrainerToCourses</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_update_name>sys_app_module_08b4dfdac332d210550efa0ed4013108</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-02 08:47:51</sys_updated_on>
+        <timeline_page/>
+        <title>[Relationship]TrainerToCourses</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</application>
+        <file_path/>
+        <instance_id>1d679edd1b0a86d032182f8dee4bcb44</instance_id>
+        <instance_name>dev265151</instance_name>
+        <name>sys_app_module_08b4dfdac332d210550efa0ed4013108</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sparta Academy">da473cd2c3a2d210550efa0ed4013144</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>[Relationship]TrainerToCourses</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1563426_sparta_a_relationship_trainerstocourses</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-02 08:47:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>08b4dfdac332d210550efa0ed4013108</sys_id><sys_mod_count>0</sys_mod_count><sys_name>[Relationship]TrainerToCourses</sys_name><sys_overrides/><sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package><sys_policy/><sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope><sys_update_name>sys_app_module_08b4dfdac332d210550efa0ed4013108</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-02 08:47:51</sys_updated_on><timeline_page/><title>[Relationship]TrainerToCourses</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1262915611</payload_hash>
+        <record_name>[Relationship]TrainerToCourses</record_name>
+        <reverted_from/>
+        <source>b9f9b85ac3a2d210550efa0ed4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-02 08:47:52</sys_created_on>
+        <sys_id>2fd41bdac332d210550efa0ed40131d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19426331eec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-02 08:47:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>23d41bda5a32d210badab5e6b528e4d9</update_guid>
+        <update_guid_history>23d41bda5a32d210badab5e6b528e4d9:-1262915611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="[Relationship]TrainerToCourses">6dc745fec37e1610550efa0ed4013170</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 11:48:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>02610680269d4b679cc27e7d56cae409</sys_id>
+        <sys_metadata>08b4dfdac332d210550efa0ed4013108</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Relationship]TrainerToCourses</sys_name>
+        <sys_package display_value="Sparta Academy" source="x_1563426_sparta_a">63e5b0d6c3a2d210550efa0ed40131c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sparta Academy">63e5b0d6c3a2d210550efa0ed40131c0</sys_scope>
+        <sys_scope_delete display_value="">090f9f49c7324a80848ca711ce168664</sys_scope_delete>
+        <sys_update_name>sys_app_module_08b4dfdac332d210550efa0ed4013108</sys_update_name>
+        <sys_update_version display_value="sys_app_module_08b4dfdac332d210550efa0ed4013108">2fd41bdac332d210550efa0ed40131d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 11:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

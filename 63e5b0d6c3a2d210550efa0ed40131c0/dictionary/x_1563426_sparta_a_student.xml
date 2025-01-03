@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="083a0db2c3be1610550efa0ed40131ef" extends="x_1563426_sparta_a_person" label="Student" max_length="40" name="x_1563426_sparta_a_student" type="collection"/>
+</database>
